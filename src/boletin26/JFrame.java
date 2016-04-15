@@ -1119,8 +1119,8 @@ public void desmarcar(JButton desmarcar){
 }
     public void generarAlea(JButton generar){
         int valores;
-        int valor;
-        for(int i = 0;i<2;i++){
+       
+        for(int i = 0;i<6;i++){
             valores = (int) Math.floor(Math.random() * 49 )+1;
             while(Aleatorios.contains(valores)){
                 valores = (int) Math.floor(Math.random() * 49 )+1;
