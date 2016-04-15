@@ -90,8 +90,22 @@
                                                   <Component id="boton43" alignment="0" max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
-                                          <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
-                                          <Component id="desmarcar" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="boton40" min="-2" pref="50" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                          <Component id="boton30" pref="50" max="32767" attributes="0"/>
+                                                          <Component id="boton35" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="boton45" min="-2" pref="50" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
                                       </Group>
                                       <Group type="102" attributes="0">
                                           <Component id="boton23" min="-2" pref="50" max="-2" attributes="0"/>
@@ -99,6 +113,7 @@
                                           <Component id="boton25" min="-2" pref="50" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
+                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -134,29 +149,17 @@
                                               </Group>
                                           </Group>
                                           <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Component id="boton5" alignment="1" max="32767" attributes="0"/>
-                                                      <Component id="boton10" alignment="1" pref="50" max="32767" attributes="0"/>
-                                                      <Component id="boton15" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="boton20" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="boton30" alignment="0" max="32767" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace pref="47" max="32767" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="generar" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="validar" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="boton35" min="-2" pref="50" max="-2" attributes="0"/>
-                                                      <Component id="boton40" min="-2" pref="50" max="-2" attributes="0"/>
-                                                      <Component id="boton45" min="-2" pref="50" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                              </Group>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="boton5" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="boton10" alignment="1" pref="50" max="32767" attributes="0"/>
+                                              <Component id="boton15" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="boton20" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace pref="121" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="desmarcar" max="32767" attributes="0"/>
+                                              <Component id="validar" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="generar" alignment="0" max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -165,7 +168,7 @@
                       </Group>
                       <Component id="boton21" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -180,9 +183,32 @@
                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="boton1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="boton6" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                          <Component id="boton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="boton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="boton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="generar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="boton2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="boton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="boton7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="boton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="boton10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="validar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="boton1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="boton6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                           <EmptySpace pref="13" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="boton11" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -190,6 +216,7 @@
                               <Component id="boton13" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="boton14" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="boton15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="desmarcar" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -203,66 +230,37 @@
                                   <Component id="boton20" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                      </Group>
-                      <Component id="boton25" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                  <Component id="boton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="boton4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="boton5" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="generar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="boton24" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="boton21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="boton22" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="boton2" alignment="1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="boton8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="boton7" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="boton9" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="boton10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                                  <Component id="validar" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="boton23" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="boton24" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="boton21" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="boton22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="boton25" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="boton23" alignment="1" min="-2" max="-2" attributes="0"/>
-                      <Component id="boton30" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="boton29" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                                  <Component id="boton35" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="boton29" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="boton30" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="boton34" min="-2" max="-2" attributes="0"/>
-                              <Component id="boton40" min="-2" max="-2" attributes="0"/>
+                              <Component id="boton34" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="boton35" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="boton39" min="-2" max="-2" attributes="0"/>
-                              <Component id="boton45" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="boton39" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="boton40" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -290,6 +288,7 @@
                               <Component id="boton42" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="boton43" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="boton44" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="boton45" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -297,7 +296,6 @@
                               <Component id="boton47" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="boton48" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="boton49" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="desmarcar" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
