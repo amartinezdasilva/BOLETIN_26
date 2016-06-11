@@ -8,7 +8,7 @@ package boletin26;
 
 /**
  *
- * @author nlopezjimenez
+ * @author aaron
  */
 public class Boletin26 {
 

@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author nlopezjimenez
+ * @author aaron
  */
 public class JFrame extends javax.swing.JFrame {
 
@@ -90,8 +90,12 @@ public class JFrame extends javax.swing.JFrame {
         Field2 = new javax.swing.JTextField();
         generar = new javax.swing.JButton();
         validar = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(51, 255, 51));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         boton1.setText("1");
         boton1.addActionListener(new java.awt.event.ActionListener() {
@@ -99,6 +103,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton1ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 142, 45, -1));
 
         boton2.setText("2");
         boton2.addActionListener(new java.awt.event.ActionListener() {
@@ -106,6 +111,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton2ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(179, 142, 47, -1));
 
         boton3.setText("3");
         boton3.addActionListener(new java.awt.event.ActionListener() {
@@ -113,6 +119,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton3ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 142, 50, -1));
 
         boton4.setText("4");
         boton4.addActionListener(new java.awt.event.ActionListener() {
@@ -120,6 +127,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton4ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(405, 142, 50, -1));
 
         boton5.setText("5");
         boton5.addActionListener(new java.awt.event.ActionListener() {
@@ -127,6 +135,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton5ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 142, 50, -1));
 
         boton6.setText("6");
         boton6.addActionListener(new java.awt.event.ActionListener() {
@@ -134,6 +143,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton6ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 171, 45, -1));
 
         boton7.setText("7");
         boton7.addActionListener(new java.awt.event.ActionListener() {
@@ -141,6 +151,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton7ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 171, 45, -1));
 
         boton8.setText("8");
         boton8.addActionListener(new java.awt.event.ActionListener() {
@@ -148,6 +159,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton8ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 171, 50, -1));
 
         boton9.setText("9");
         boton9.addActionListener(new java.awt.event.ActionListener() {
@@ -155,6 +167,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton9ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 171, 45, -1));
 
         boton10.setText("10");
         boton10.addActionListener(new java.awt.event.ActionListener() {
@@ -162,6 +175,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton10ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 171, 50, -1));
 
         boton11.setText("11");
         boton11.addActionListener(new java.awt.event.ActionListener() {
@@ -169,6 +183,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton11ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 207, -1, -1));
 
         boton12.setText("12");
         boton12.addActionListener(new java.awt.event.ActionListener() {
@@ -176,6 +191,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton12ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 207, -1, -1));
 
         boton13.setText("13");
         boton13.addActionListener(new java.awt.event.ActionListener() {
@@ -183,6 +199,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton13ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 207, 51, -1));
 
         boton14.setText("14");
         boton14.addActionListener(new java.awt.event.ActionListener() {
@@ -190,6 +207,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton14ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 207, -1, -1));
 
         boton15.setText("15");
         boton15.addActionListener(new java.awt.event.ActionListener() {
@@ -197,6 +215,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton15ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 207, 50, -1));
 
         boton16.setText("16");
         boton16.addActionListener(new java.awt.event.ActionListener() {
@@ -204,6 +223,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton16ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 236, -1, -1));
 
         boton21.setText("21");
         boton21.addActionListener(new java.awt.event.ActionListener() {
@@ -211,6 +231,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton21ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 265, -1, -1));
 
         boton27.setText("27");
         boton27.addActionListener(new java.awt.event.ActionListener() {
@@ -218,6 +239,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton27ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 292, -1, -1));
 
         boton22.setText("22");
         boton22.addActionListener(new java.awt.event.ActionListener() {
@@ -225,6 +247,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton22ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 265, -1, -1));
 
         boton17.setText("17");
         boton17.addActionListener(new java.awt.event.ActionListener() {
@@ -232,6 +255,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton17ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 236, -1, -1));
 
         boton18.setText("18");
         boton18.addActionListener(new java.awt.event.ActionListener() {
@@ -239,6 +263,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton18ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 236, 50, -1));
 
         boton23.setText("23");
         boton23.addActionListener(new java.awt.event.ActionListener() {
@@ -246,6 +271,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton23ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 265, 50, -1));
 
         boton28.setText("28");
         boton28.addActionListener(new java.awt.event.ActionListener() {
@@ -253,6 +279,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton28ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 292, 50, -1));
 
         boton29.setText("29");
         boton29.addActionListener(new java.awt.event.ActionListener() {
@@ -260,6 +287,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton29ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 294, -1, -1));
 
         boton24.setText("24");
         boton24.addActionListener(new java.awt.event.ActionListener() {
@@ -267,6 +295,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton24ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 265, -1, -1));
 
         boton19.setText("19");
         boton19.addActionListener(new java.awt.event.ActionListener() {
@@ -274,6 +303,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton19ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 236, -1, -1));
 
         boton20.setText("20");
         boton20.addActionListener(new java.awt.event.ActionListener() {
@@ -281,6 +311,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton20ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 236, 50, -1));
 
         boton25.setText("25");
         boton25.addActionListener(new java.awt.event.ActionListener() {
@@ -288,6 +319,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton25ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 142, 50, -1));
 
         boton30.setText("30");
         boton30.addActionListener(new java.awt.event.ActionListener() {
@@ -295,6 +327,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton30ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 294, 50, -1));
 
         boton38.setText("38");
         boton38.addActionListener(new java.awt.event.ActionListener() {
@@ -302,6 +335,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton38ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 351, 50, -1));
 
         boton45.setText("45");
         boton45.addActionListener(new java.awt.event.ActionListener() {
@@ -309,6 +343,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton45ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 380, 50, -1));
 
         boton40.setText("40");
         boton40.addActionListener(new java.awt.event.ActionListener() {
@@ -316,6 +351,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton40ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 352, 50, -1));
 
         boton43.setText("43");
         boton43.addActionListener(new java.awt.event.ActionListener() {
@@ -323,6 +359,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton43ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton43, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 380, 50, -1));
 
         boton39.setText("39");
         boton39.addActionListener(new java.awt.event.ActionListener() {
@@ -330,6 +367,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton39ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 352, -1, -1));
 
         boton31.setText("31");
         boton31.addActionListener(new java.awt.event.ActionListener() {
@@ -337,6 +375,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton31ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 321, -1, -1));
 
         boton32.setText("32");
         boton32.addActionListener(new java.awt.event.ActionListener() {
@@ -344,6 +383,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton32ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 321, -1, -1));
 
         boton33.setText("33");
         boton33.addActionListener(new java.awt.event.ActionListener() {
@@ -351,6 +391,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton33ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 321, 50, -1));
 
         boton37.setText("37");
         boton37.addActionListener(new java.awt.event.ActionListener() {
@@ -358,6 +399,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton37ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 351, -1, -1));
 
         boton34.setText("34");
         boton34.addActionListener(new java.awt.event.ActionListener() {
@@ -365,6 +407,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton34ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 323, -1, -1));
 
         boton35.setText("35");
         boton35.addActionListener(new java.awt.event.ActionListener() {
@@ -372,6 +415,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton35ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(511, 323, 50, -1));
 
         boton44.setText("44");
         boton44.addActionListener(new java.awt.event.ActionListener() {
@@ -379,6 +423,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton44ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton44, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 380, -1, -1));
 
         boton42.setText("42");
         boton42.addActionListener(new java.awt.event.ActionListener() {
@@ -386,6 +431,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton42ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 380, -1, -1));
 
         boton36.setText("36");
         boton36.addActionListener(new java.awt.event.ActionListener() {
@@ -393,6 +439,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton36ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 351, -1, -1));
 
         boton41.setText("41");
         boton41.addActionListener(new java.awt.event.ActionListener() {
@@ -400,6 +447,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton41ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 380, -1, -1));
 
         boton26.setText("26");
         boton26.addActionListener(new java.awt.event.ActionListener() {
@@ -407,6 +455,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton26ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 292, -1, -1));
 
         boton46.setText("46");
         boton46.addActionListener(new java.awt.event.ActionListener() {
@@ -414,6 +463,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton46ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 407, -1, -1));
 
         boton48.setText("48");
         boton48.addActionListener(new java.awt.event.ActionListener() {
@@ -421,6 +471,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton48ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton48, new org.netbeans.lib.awtextra.AbsoluteConstraints(291, 407, 50, -1));
 
         boton47.setText("47");
         boton47.addActionListener(new java.awt.event.ActionListener() {
@@ -428,6 +479,7 @@ public class JFrame extends javax.swing.JFrame {
                 boton47ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton47, new org.netbeans.lib.awtextra.AbsoluteConstraints(181, 407, -1, -1));
 
         boton49.setText("49");
         boton49.addActionListener(new java.awt.event.ActionListener() {
@@ -435,6 +487,8 @@ public class JFrame extends javax.swing.JFrame {
                 boton49ActionPerformed(evt);
             }
         });
+        jPanel1.add(boton49, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 407, -1, -1));
+        jPanel1.add(field, new org.netbeans.lib.awtextra.AbsoluteConstraints(58, 25, 280, 79));
 
         desmarcar.setText("Desmarcar");
         desmarcar.addActionListener(new java.awt.event.ActionListener() {
@@ -442,6 +496,8 @@ public class JFrame extends javax.swing.JFrame {
                 desmarcarActionPerformed(evt);
             }
         });
+        jPanel1.add(desmarcar, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 340, 170, 50));
+        jPanel1.add(Field2, new org.netbeans.lib.awtextra.AbsoluteConstraints(405, 25, 360, 79));
 
         generar.setText("Generar");
         generar.addActionListener(new java.awt.event.ActionListener() {
@@ -449,6 +505,7 @@ public class JFrame extends javax.swing.JFrame {
                 generarActionPerformed(evt);
             }
         });
+        jPanel1.add(generar, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 200, 170, 50));
 
         validar.setText("Validar");
         validar.addActionListener(new java.awt.event.ActionListener() {
@@ -456,214 +513,10 @@ public class JFrame extends javax.swing.JFrame {
                 validarActionPerformed(evt);
             }
         });
+        jPanel1.add(validar, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 270, 170, 50));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(58, 58, 58)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(field, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(boton1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(68, 68, 68))
-                            .addComponent(boton16, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton26, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton31, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton36, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton41, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton46, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton11, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(3, 3, 3)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(boton27)
-                            .addComponent(boton32)
-                            .addComponent(boton37)
-                            .addComponent(boton42)
-                            .addComponent(boton47)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(boton7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(boton12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(boton17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(boton22, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addComponent(boton2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(65, 65, 65)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(boton38, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(boton28, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(boton33, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                .addComponent(boton48, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                                                .addComponent(boton43, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addGap(170, 170, 170)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                    .addComponent(boton40, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                                        .addComponent(boton30, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                                                        .addComponent(boton35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(boton45, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(boton23, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(170, 170, 170)
-                                        .addComponent(boton25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(45, 45, 45))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(64, 64, 64)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(boton13, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(boton8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(boton3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                        .addGap(65, 65, 65)
-                                        .addComponent(boton18, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(64, 64, 64)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Field2)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(boton4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(boton19)
-                                            .addComponent(boton24)
-                                            .addComponent(boton29)
-                                            .addComponent(boton34)
-                                            .addComponent(boton39)
-                                            .addComponent(boton44)
-                                            .addComponent(boton49)
-                                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                                .addComponent(boton9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(boton14, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                                        .addGap(56, 56, 56)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(boton5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(boton10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                                            .addComponent(boton15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(boton20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 121, Short.MAX_VALUE)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(desmarcar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(validar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(generar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))))
-                    .addComponent(boton21, javax.swing.GroupLayout.Alignment.LEADING))
-                .addGap(25, 25, 25))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(25, 25, 25)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(field, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Field2, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(38, 38, 38)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(boton3)
-                                        .addComponent(boton4)
-                                        .addComponent(boton5)
-                                        .addComponent(generar))
-                                    .addComponent(boton2, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(boton8)
-                                    .addComponent(boton7)
-                                    .addComponent(boton9)
-                                    .addComponent(boton10)
-                                    .addComponent(validar)))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(boton1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(boton6)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(boton11)
-                            .addComponent(boton12)
-                            .addComponent(boton13)
-                            .addComponent(boton14)
-                            .addComponent(boton15)
-                            .addComponent(desmarcar))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(boton16)
-                                .addComponent(boton17))
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(boton18)
-                                .addComponent(boton19)
-                                .addComponent(boton20)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton24)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(boton21)
-                                .addComponent(boton22))
-                            .addComponent(boton23, javax.swing.GroupLayout.Alignment.TRAILING)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(boton25)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(boton29)
-                            .addComponent(boton30))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(boton34)
-                            .addComponent(boton35))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(boton39)
-                            .addComponent(boton40)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(4, 4, 4)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(boton26)
-                            .addComponent(boton27)
-                            .addComponent(boton28))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(boton31)
-                            .addComponent(boton32)
-                            .addComponent(boton33))
-                        .addGap(7, 7, 7)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(boton36)
-                            .addComponent(boton37)
-                            .addComponent(boton38))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(boton41)
-                            .addComponent(boton42)
-                            .addComponent(boton43)
-                            .addComponent(boton44)
-                            .addComponent(boton45))
-                        .addGap(4, 4, 4)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(boton46)
-                            .addComponent(boton47)
-                            .addComponent(boton48)
-                            .addComponent(boton49))))
-                .addContainerGap())
-        );
+        jButton1.setText("25");
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 270, -1, 20));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1098,6 +951,7 @@ public class JFrame extends javax.swing.JFrame {
     private javax.swing.JToggleButton desmarcar;
     private javax.swing.JTextField field;
     private javax.swing.JButton generar;
+    private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton validar;
     // End of variables declaration//GEN-END:variables
